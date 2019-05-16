@@ -30,6 +30,7 @@ class SoakClass:
         self.telnet_cli_session.sendline("magic")
         self.telnet_cli_session.expect(">")
         print('leaving login_599')
+        # test
 
     def stn_connect_to_youtube_music(self):
         soak.youtube_session = webdriver.Chrome()
