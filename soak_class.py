@@ -20,13 +20,13 @@ class SoakClass:
             print("Successfully pinged RG: " + s1)
         else:
             print("Ping to RG failed")        #you_tube_music_url = 'https://172.217.gin_599')
-
+https://github.com/pfpalmer/soak
     def soak_login_599(self):
         self.telnet_cli_session = pexpect.spawn("telnet 192.168.1.254",encoding='utf-8')
         self.telnet_cli_session.expect("ogin")
         self.telnet_cli_session.sendline("admin")
         self.telnet_cli_session.expect("ord:")
-        self.telnet_cli_session.sendline("<<01%//4&/")
+        self.telnet_cli_session.sendline("9==5485?6<")
         self.telnet_cli_session.sendline("magic")
         self.telnet_cli_session.expect(">")
         print('leaving login_599')
